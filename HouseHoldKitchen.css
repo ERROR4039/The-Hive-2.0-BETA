@@ -1,0 +1,100 @@
+/* color of nav */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e08d3c;
+  width: 100%;
+}
+/* links located */
+li {
+  float: right;
+}
+
+.active{
+    float: left;
+}
+
+/* text color */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* when hover background changes (navbar) */
+li a:hover {
+  background-color: #e49b0f;
+  height: 127px;
+}
+
+.Shopnow
+{
+    background-image: url(https://static.wixstatic.com/media/2c21d6_7beaf87bf94b4c339e126d7a3d229cb8~mv2.jpg/v1/fill/w_1620,h_1080,al_c,q_90/2c21d6_7beaf87bf94b4c339e126d7a3d229cb8~mv2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.shop {
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .shop {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #e08d3c;
+  }
+  
+  .shop:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  .H1
+  {
+    font-size: 55px;
+    color: #ff6a00;
+  }
+
+  body
+  {
+    background-color: #ff6a00;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .checked {
+    color: orange;
+    border: #e08d3c;
+  }
+
+  .container
+  {
+    display: flex;
+    display:-webkit-flex ;
+    height: 500px;
+    width: 1500px;
+  }
+
+  .item
+{
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    margin:20px;
+}

@@ -1,0 +1,89 @@
+.game1
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 1280px;
+    float: left;
+    background-image:url(https://i.ytimg.com/vi/WLGKrU5nYZU/maxresdefault.jpg);
+    contain: content;
+    color: white;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 200px;
+  }
+  
+  .button:hover {
+    background-color: #b10000;
+  }
+
+  .button2 {
+    background-color: #1c0001;
+    border: red;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 200px;
+  }
+  
+  .button2:hover {
+    border: orangered;
+  }
+
+  .Info {
+    float: right;
+    width: 30%;
+    height: 300px;
+    background-color: #f2f2f2;
+  }
+
+  .title
+  {
+    color: white;
+    background-color: #410000;
+  }
+
+  .title :hover
+  {
+    background-color: #1c0001;
+  }
+
+  .game2
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 1280px;
+    float: left;
+    background-image:url(https://gmedia.playstation.com/is/image/SIEPDC/spiderman-miles-morales-screenshot-01-disclaimer-en-01oct20?$1600px--t$);
+    contain: content;
+    color: white;
+}
+  
+.game3
+{
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 1280px;
+    float: left;
+    background-image:url(https://www.gamespot.com/a/uploads/screen_kubrick/1601/16018044/4150120-spidey-2.jpg);
+    contain: content;
+    color: white;
+}
